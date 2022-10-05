@@ -1,0 +1,133 @@
+/* =========================================
+            Allgemeines
+=========================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+    font-family: "inter";
+}
+
+@font-face {
+    font-family: inter;
+    src: url("../fonts/Inter-Regular.ttf");
+}
+
+html {
+    font-size: 10px;
+}
+
+/* =========================================
+            Header & Navigationsleiste
+=========================================== */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 2.5rem;
+    font-size: 1.5rem;
+}
+
+header h1 {
+    color: #4338CA;
+    font-size: 2rem;
+
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li a {
+    margin-left: 1.5rem;
+    text-decoration: none;
+}
+
+.btn_contact {
+    color: white;
+    padding: 0.5rem 2rem;
+    border-radius: 25px;
+    background-color: #4338CA;
+}
+
+/* =========================================
+            Main
+=========================================== */
+main {
+    font-size: 1.5rem;
+}
+
+main section:nth-of-type(1) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: aquamarine; */
+    margin: 6rem;
+}
+
+main section:nth-of-type(2) {
+    display: flex;
+    justify-content: space-around;
+    margin: 10rem;
+    /* background-color: aqua; */
+}
+
+.firstSection_a {
+    color: #fff;
+    text-decoration: none;
+    background-color: #4338CA;
+    width: 17rem;
+    margin-top: 5rem;
+    padding: 2rem;
+    border-radius: 3rem;
+}
+
+.firstSection_img {
+    box-shadow: 1.5rem 1.5rem black;
+    width: 40%;
+}
+
+.firstArticle {
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.firstP {
+    align-self: center;
+    font-size: 2rem;
+}
+
+.firstH2 {
+    font-size: 6.7rem;
+    width: 41rem;
+}
+
+.secondP {
+    width: 40rem;
+    padding: 5rem 0rem;
+}
+
+.secondH2 {
+    padding-top: 2rem;
+    font-size: 10rem;
+    width: 10rem;
+}
+
+
+main section article ul {
+    display: flex;
+    list-style: none;
+}
+
+main section article ul li {
+    margin-right: 2rem;
+}
+
+span {
+    margin-left: 10rem;
+}

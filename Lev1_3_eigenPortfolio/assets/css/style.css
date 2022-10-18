@@ -119,15 +119,118 @@ main section:nth-of-type(2) {
 }
 
 
-main section article ul {
+.secondArticle ul {
     display: flex;
     list-style: none;
 }
 
-main section article ul li {
+.secondArticle ul li {
     margin-right: 2rem;
 }
 
 span {
     margin-left: 10rem;
+}
+
+
+/* =========================================
+            Main Tech Stack
+=========================================== */
+
+.div_tech_stack {
+    height: 85vh;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 0.3fr);
+    align-items: end;
+}
+
+.h2_tech-stack {
+    font-size: 10rem;
+    color: #fff;
+}
+
+main figure {
+    text-align: center;
+    /* height: 15vh; */
+    gap: 1rem;
+}
+
+main figure img {
+    width: 30%;
+    height: 20vh;
+}
+
+.tech_stack {
+    padding-top: 2rem;
+    background-color: #4338CA;
+}
+
+.tech_stack h2 {
+    padding: 15rem 0 0 10rem;
+}
+
+
+/* =========================================
+            Main Werdegang Berufserfahrung
+=========================================== */
+
+.section_werdegang {
+    padding: 8rem;
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+        "h2_werdegang h2_werdegang"
+        "article_berufserfahrung article_ausbildung";
+}
+
+.section_werdegang h2 {
+    grid-area: h2_werdegang;
+    font-size: 10rem;
+}
+
+.article_berufserfahrung {
+    padding: 10rem 2rem 10rem 0rem;
+    grid-area: article_berufserfahrung;
+}
+
+.article_berufserfahrung h2 {
+    font-size: 10rem;
+}
+
+.article_berufserfahrung h3 {
+    font-size: 3rem;
+}
+
+.article_berufserfahrung div {
+    background-color: #4338CA;
+    margin-bottom: 1rem;
+    border-radius: 25px;
+    padding: 2rem;
+}
+
+/* =========================================
+            Main Werdegang Ausbildung
+=========================================== */
+
+.article_ausbildung {
+    padding: 10rem 0rem 10rem 0;
+    /* margin-top: 15.8rem; */
+    grid-area: article_ausbildung;
+}
+
+.article_ausbildung h2 {
+    font-size: 10rem;
+}
+
+.article_ausbildung h3 {
+    font-size: 3rem;
+}
+
+.article_ausbildung div {
+    background-color: #A19CE4;
+    margin-bottom: 1rem;
+    border-radius: 25px;
+    padding: 2rem;
 }

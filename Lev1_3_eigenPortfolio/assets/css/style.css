@@ -23,6 +23,10 @@ body {
     margin: 0 6rem;
 }
 
+button {
+    border: none;
+}
+
 /* =========================================
             Header & Navigationsleiste
 =========================================== */
@@ -57,7 +61,7 @@ header a {
 
 .btn_contact {
     color: white;
-    padding: 0.5rem 3rem;
+    padding: 1rem 5rem;
     border-radius: 25px;
     background-color: #4338CA;
 }
@@ -71,8 +75,9 @@ main {
 
 main section:nth-of-type(1) {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    margin-top: 10vh;
     /* background-color: aquamarine; */
 }
 
@@ -83,18 +88,18 @@ main section:nth-of-type(2) {
     /* background-color: aqua; */
 }
 
-.firstSection_a {
+.firstArticle button {
+    font-size: 2rem;
     color: #fff;
-    text-decoration: none;
     background-color: #4338CA;
-    width: 17rem;
+    width: 23rem;
     margin-top: 5rem;
-    padding: 2rem;
+    padding: 1rem 5rem;
     border-radius: 3rem;
 }
 
 .firstSection_img {
-    box-shadow: 1.5rem 1.5rem black;
+    box-shadow: 1.5rem 1.5rem #4338CA;
     width: 40%;
 }
 
@@ -106,8 +111,9 @@ main section:nth-of-type(2) {
 
 
 .firstP {
-    align-self: center;
     font-size: 2rem;
+    word-spacing: 1rem;
+    color: #4338CA;
 }
 
 .firstH2 {
